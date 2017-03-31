@@ -1,5 +1,7 @@
 A Java String utility class.
 
+[![Build Status](https://travis-ci.org/fduckart/uh-strings.png?branch=master)](https://travis-ci.org/fduckart/uh-strings)
+[![Coverage Status](https://coveralls.io/repos/github/fduckart/uh-strings/badge.svg)](https://coveralls.io/github/fduckart/uh-strings)
 
 ##### Build Tool
 First, you need to download and install maven (version 3.2.3+).
