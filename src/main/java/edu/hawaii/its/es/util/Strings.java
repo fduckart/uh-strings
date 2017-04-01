@@ -1,8 +1,6 @@
 package edu.hawaii.its.es.util;
 
-import java.util.Arrays;
-
-public class Strings {
+public final class Strings {
 
     // Private contructor to prevent instantiation.
     private Strings() {
@@ -11,7 +9,9 @@ public class Strings {
 
     public static String fill(final char ch, final int size) {
         char[] fill = new char[size];
-        Arrays.fill(fill, ch);
+        for (int i = 0; i < size; i++) {
+            fill[i] = ch;
+        }
 
         return new String(fill);
     }
